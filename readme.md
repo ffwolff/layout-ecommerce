@@ -8,11 +8,11 @@ Layout feito conforme o teste Frontend challenge júnior para a VNDA
 - [x] Para as imagens, pode ser usado geradores de imagens por dimensão, como o [picsum](https://picsum.photos/) e o [placeholder](https://placeholder.com/)
 - [x] No banner com slider, usar o [swiper](http://idangero.us/swiper/)
 - [x] Deve ser feito o responsivo, mantendo as mesmas sessões do desktop. Você tem liberdade para decidir os pontos de quebra e o estilo das sessões no mobile.
-- Deve ser utilizado sass e gulp para o pré-processamento do código;
+### Deve ser utilizado sass e gulp para o pré-processamento do código;
 - [x] GULP;
 - [x] SASS
 
-- [x]Entregar uma pasta com os arquivos de desenvolvimento e outra pasta com os arquivos minificados e comprimidos (src/dist);
--- Na pasta **src** ficam os arquivos de desenvolvimento.
--- Na pasta **dist** ficam os arquivos finais (comprimidos e minificados).
+- [x] Entregar uma pasta com os arquivos de desenvolvimento e outra pasta com os arquivos minificados e comprimidos (src/dist);
+Na pasta **src** ficam os arquivos de desenvolvimento.
+Na pasta **dist** ficam os arquivos finais (comprimidos e minificados).
 - [x] Não deve ser usado nenhum framework de css (como bootstrap), para que possamos avaliar melhor a sua qualidade técnica;
