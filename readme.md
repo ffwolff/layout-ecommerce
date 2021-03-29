@@ -13,6 +13,6 @@ Layout feito conforme o teste Frontend challenge júnior para a VNDA
 - [x] SASS
 
 - [x] Entregar uma pasta com os arquivos de desenvolvimento e outra pasta com os arquivos minificados e comprimidos (src/dist);
-Na pasta **src** ficam os arquivos de desenvolvimento.
-Na pasta **dist** ficam os arquivos finais (comprimidos e minificados).
+- Na pasta **src** ficam os arquivos de desenvolvimento.
+- Na pasta **dist** ficam os arquivos finais (comprimidos e minificados).
 - [x] Não deve ser usado nenhum framework de css (como bootstrap), para que possamos avaliar melhor a sua qualidade técnica;

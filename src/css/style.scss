@@ -1,0 +1,555 @@
+$eerie: #272727;
+$almond: #F5E5D9;
+$cultured: #F6F6F6;
+
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 0px;
+    color: $eerie;
+}
+.header {
+    overflow: hidden;
+    background-color: $eerie;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    a {
+      display: inline-block;
+      color: $cultured;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 18px;
+      transition: .3s ease-in-out;
+    } 
+    a:hover{
+      color: $almond;
+      filter: blur(0.5px);
+    }
+    .logo img {
+      width: auto;
+      height: auto;
+      max-width: 200px;
+    }
+    .header-menu-item{
+      display: inline-block;
+      overflow: hidden;
+      transition: .3s ease-in-out;
+      .dropbtn {
+        font-size: 20px;
+        border: none;
+        outline: none;
+        color: $cultured;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit; 
+        margin: 0;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: $cultured;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px $eerie;
+        z-index: 1000;
+        transition: .3s ease-in-out;
+        a {
+          overflow: hidden;
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+        }
+        a:hover {
+          background-color: $eerie;
+          color: $cultured;
+        }
+      }
+    }
+    
+    .header-menu-item:hover .dropbtn {
+      color: $almond;
+      filter: blur(0.5px);
+    }
+    .header-menu-item:hover .dropdown-content {
+      display: block;
+    }
+  }
+  
+  
+
+  .swiper-banner {    
+    width: 100%;;
+    height: 650px;
+    background-color: $eerie; 
+    .swiper-slide {
+      width: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      a{
+        width: 100%;
+      }
+      .swiper-img {
+        width: 100%;
+        transition: .3s ease-in-out;
+      }
+      .swiper-img:hover {
+        opacity: .5;
+      }
+    }
+  }
+
+  .icon-bar {
+    overflow: hidden;
+    background-color: $eerie;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    .icon-img {
+      display: inline-block;      
+      padding: 25px;
+      img{
+        border-radius: 50%;
+        max-width: 150px;
+        height: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        transition: .3s ease-in-out;
+      }
+      img:hover{
+        opacity: .5;
+      }
+    }
+  }
+
+.row {
+  background-color: $almond;
+  color: $eerie;
+  padding: 25px;
+  display: flex; 
+  justify-content: space-around;
+  max-height: 600px;
+  h1 {
+    font-family: 'PT Sans', sans-serif;
+  }
+  .page-article {
+    max-width: 40%;
+    padding: 10px;
+    margin: 10px;
+  }
+} 
+
+.banner-row{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.banner{
+  background-color: $eerie;
+  text-align: center;
+  margin: 0 10px 10px 0;
+  img {
+    width: 400px;
+    height: auto;
+  }
+  .banner-text {
+    padding: 20px;
+    color: $almond;
+    h2{
+      font-family: 'PT Sans', sans-serif;
+    }
+  }
+}
+
+.post-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 750px;
+  background: linear-gradient(90deg, $almond 85%, white 15%);
+  color: $eerie;
+  overflow: visible;
+  padding: 20px;
+}
+.post-card{
+  display: flex;
+  align-items: flex-start; 
+  text-align: justify;
+  width: 90%;
+  img {
+    margin: 20px;
+  }
+  .post-text {
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    h2{
+      font-family: 'PT Sans', sans-serif;
+    }
+    button{
+      border: none;
+      color: $cultured;
+      background-color: $eerie;
+      border: 2px solid $eerie;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      transition-duration: 0.4s;
+    }
+    button:hover{
+      background-color: $cultured;
+      color: $eerie;
+      border-radius: 0%;
+    }
+  }
+}
+
+.mini-swiper {    
+  width: 600px;
+  height: 300px;
+  background-color: $cultured;   
+}
+.mini-swiper .swiper-slide {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mini-swiper .swiper-img {
+  width: 100%;
+  height: 300px;
+  height: 300px;;
+transition: .3s ease-in-out;
+}
+.mini-swiper .swiper-img:hover {
+  opacity: .5;
+}
+
+.insta-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin-top: 80px;
+  h1{
+    font-family: 'PT Sans', sans-serif;
+    color: $eerie;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+.insta-gallery {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.insta-img {
+  img {
+    width: 400px;
+  }
+}
+.insta-txt {
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  font-size: 11pt;
+  width: 400px;
+  height: 400px;
+  background-color: $eerie;
+  p {
+    padding: 30px;
+    color: $cultured;
+  }
+}
+
+.footer-row {
+  margin-top: 300px;
+}
+.footer-head{
+  background-color: $eerie;
+  height: 2px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin-bottom: 100px;
+  img {
+    width: 200px;
+  }
+}
+.footer-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 0px;
+}
+.side-menu{
+  h1{
+    font-family: 'PT Sans', sans-serif;
+    color: $eerie;
+    padding: 14px 16px;
+  }
+}
+.menu-content{
+  width: 100%;
+  display: block;
+  a{
+    display: inline-block;
+    color: $eerie;
+    border: 2px solid white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: .3s ease-in-out;
+  }
+  a:hover{
+    background-color: $cultured;
+    border-radius: 0%;
+    border-color: $eerie;
+  }
+}
+.column-menu a{
+  display: inline-block;
+  width: 100%;
+    color: $eerie;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.column-menu a:hover{
+  text-decoration: underline;
+}
+.center-menu{
+  display: block;
+  width: 500px;  
+  padding: 14px 16px;
+  color: $eerie;
+  h1 {
+    font-family: 'PT Sans', sans-serif;  
+  }
+}
+.center-content {
+  width: 100%;
+  border-bottom: 2px solid $eerie;
+  padding: 7px;
+  input {
+    width: 80%;
+    font-family: 'PT Sans', sans-serif;
+    border: none;
+    font-size: 16px;  
+    outline: none;
+  }
+  button {
+    border: none;
+    color: $eerie;
+    background-color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 7px;
+  }
+  button:after {
+    border: none;
+  }
+}
+.footer-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $eerie;
+  margin-bottom: 50px;
+  p{
+    font-size: 18dp;
+  }
+  a{
+    text-decoration: none;
+    color: $eerie;
+  }
+}
+
+
+
+  /*MOBILE e TABLETS*/
+  @media screen and (max-width: 768px) {
+    .header {
+      width: 100%;
+      height: auto;
+      display: block;
+      .logo {
+        float: none;
+        img {
+          width: 100%;
+          max-width: none;
+          height: auto;
+        }
+      }
+      a {
+        float: none;
+        display: inline-block;
+        text-align: center;
+      }
+    }    
+    .header-menu-item .dropbtn{
+        font-size: 16px;
+    }
+    .header-right {
+      float: none;
+      text-align: center;
+      a {
+        display: inline-block;
+      }
+    }
+    .swiper-banner {    
+        height: 300px;
+        .swiper-slide a{
+          width: 100%;
+        }
+        .swiper-img{
+          width: 100%;
+          height: auto;
+          min-height: 300px;
+        }          
+      }
+    .icon-bar {
+      padding: 5px;
+      margin: 0px;
+      .icon-img {
+        padding: 10px;
+        img{        
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+      }      
+    }
+    
+    .row {
+      max-height: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .page-article {
+        max-width: 100%;
+      }  
+    }      
+    .banner-row{
+      width: 100%;
+    }
+    .banner {      
+      width:100%;    
+      img{
+        width: 100%;
+      }  
+    }
+    .post-row{
+      flex-direction: column;
+      margin-top: 10px;
+      background: white;
+      padding: 0px;
+      width: 100%;
+      height: fit-content;
+    }  
+    .post-card{
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      width: 100%;
+      img {
+        margin: 10px;
+      }
+      .post-text {
+        margin: 10px;
+        padding: 0px;
+      }
+    }
+    .mini-swiper{
+      width: 100%;
+    }
+    .insta-row { 
+      display: inline-block;
+      height: fit-content;
+      text-align: center;
+      h1{
+        margin: 10px;
+      }
+      .insta-gallery {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+      }
+      .insta-img {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+      .insta-txt {
+        margin-bottom: 5px;
+        width: 100%;
+      } 
+    }
+       
+    .footer-content {
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+    }    
+    .menu-content{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }    
+    .column-menu {
+      display: flex;
+    }    
+    .center-menu{
+      display: block;
+      width: 100%;  
+      padding: 0px;
+      margin-top: 40px;
+      text-align: center;
+    }    
+    .center-content {
+      border: none;
+      display: flex;
+      justify-content: center;
+      input {
+        width: 70%;
+        border-bottom: 2px solid $eerie;
+      }
+      button {
+        border: none;
+        color: $cultured;
+        background-color: $eerie;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 7px;
+      }
+      button:after {
+        border: none;
+      }
+    }
+    .footer-end{
+      margin-top: 80px;
+      text-align: center;
+      p{
+        align-self: center;
+        font-size: 15px;
+      }
+    }
+    
+  }
