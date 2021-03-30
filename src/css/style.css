@@ -625,7 +625,11 @@
             align-items: center;
   }
   .row .page-article {
+    padding: 20px;
     max-width: 100%;
+    min-width: 0px;
+    height: auto;
+    max-height: none;
   }
   .banner-row {
     width: 100%;
