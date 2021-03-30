@@ -1,7 +1,7 @@
 # Layout por Franco Wolff
 Layout feito conforme o teste Frontend challenge júnior para a VNDA
 
-##CLIQUE PARA ABRIR O INDEX
+##[CLIQUE PARA ABRIR O INDEX](index.html)
 
 - [x] Codificar layout seguindo o [wireframe](https://drive.google.com/file/d/10xpr_7qaEXNBT4v2dOKqanS4_tOcgEJs/view)
 - [x] Paleta de cores: https://coolors.co/ffffff-f6f6f6-f5e5d9-272727-000000
